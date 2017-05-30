@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8">
-  <HTTPTask id="99" hostname="iecvlist.microsoft.com" path="/IE11/1479242656000/iecompatviewlist.xml" url="https://iecvlist.microsoft.com/IE11/1479242656000/iecompatviewlist.xml" ip="72.21.81.200" port="443" client_ip="192.168.0.11" client_port="8745" connectionId="2000" origin="Primary" startDateTime="2017-05-25T15:45:36.931-04:00" startTime="6516" endTime="6630" sendTime="15" waitTime="0" receiveTime="11">
+  <HTTPTask id="99" hostname="iecvlist.microsoft.com" path="/IE11/1479242656000/iecompatviewlist.xml" url="https://iecvlist.microsoft.com/IE11/1479242656000/iecompatviewlist.xml" ip="72.21.81.200" port="443" client_ip="192.168.0.11" client_port="41994" connectionId="1868" origin="Primary" startDateTime="2017-05-29T20:06:40.463-04:00" startTime="6469" endTime="6592" sendTime="17" waitTime="0" receiveTime="17">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name="User-Agent" index="0">
@@ -132,7 +132,7 @@
         <HTTPHeaderEntity name="Date" index="4">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>VGh1LCAyNSBNYXkgMjAxNyAxOTo0NTo0NCBHTVQ=</ActualData>
+              <ActualData>VHVlLCAzMCBNYXkgMjAxNyAwMDowNjo0MyBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -196,7 +196,7 @@
         <HTTPHeaderEntity name="x-ms-request-id" index="12">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>MDAzOTNmZmEtMDAwMS0wMDgwLTIyNzYtZDU0ZWE4MDAwMDAw</ActualData>
+              <ActualData>M2Q0OTE2M2EtMDAwMS0wMDY5LTdmY2QtZDhiMmFlMDAwMDAw</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -220,7 +220,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTIxNjAwDQpDb250ZW50LU1ENTogcHkzekVueUNSdVVpcGpmQTdvOThpdz09DQpDb250ZW50LVR5cGU6IHRleHQveG1sDQpEYXRlOiBUaHUsIDI1IE1heSAyMDE3IDE5OjQ1OjQ0IEdNVA0KRXRhZzogMHg4RDQ5RUQ2MzQ4QzdEMjINCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTkgTWF5IDIwMTcgMTY6NDM6NDAgR01UDQpTZXJ2ZXI6IEVDQWNjIChueWEvNzk3QykNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KWC1DYWNoZTogSElUDQp4LW1zLWJsb2ItdHlwZTogQmxvY2tCbG9iDQp4LW1zLWxlYXNlLXN0YXR1czogdW5sb2NrZWQNCngtbXMtcmVxdWVzdC1pZDogMDAzOTNmZmEtMDAwMS0wMDgwLTIyNzYtZDU0ZWE4MDAwMDAwDQp4LW1zLXZlcnNpb246IDIwMDktMDktMTkNCkNvbnRlbnQtTGVuZ3RoOiAzNDczNw0KDQo=</ActualData>
+              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTIxNjAwDQpDb250ZW50LU1ENTogcHkzekVueUNSdVVpcGpmQTdvOThpdz09DQpDb250ZW50LVR5cGU6IHRleHQveG1sDQpEYXRlOiBUdWUsIDMwIE1heSAyMDE3IDAwOjA2OjQzIEdNVA0KRXRhZzogMHg4RDQ5RUQ2MzQ4QzdEMjINCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTkgTWF5IDIwMTcgMTY6NDM6NDAgR01UDQpTZXJ2ZXI6IEVDQWNjIChueWEvNzk3QykNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KWC1DYWNoZTogSElUDQp4LW1zLWJsb2ItdHlwZTogQmxvY2tCbG9iDQp4LW1zLWxlYXNlLXN0YXR1czogdW5sb2NrZWQNCngtbXMtcmVxdWVzdC1pZDogM2Q0OTE2M2EtMDAwMS0wMDY5LTdmY2QtZDhiMmFlMDAwMDAwDQp4LW1zLXZlcnNpb246IDIwMDktMDktMTkNCkNvbnRlbnQtTGVuZ3RoOiAzNDczNw0KDQo=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>

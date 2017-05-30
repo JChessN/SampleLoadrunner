@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6">
-  <HTTPTask id="60" hostname="go.microsoft.com" path="/fwlink/?LinkId=251136" url="https://go.microsoft.com/fwlink/?LinkId=251136" ip="23.46.57.251" port="443" client_ip="192.168.0.11" client_port="8731" connectionId="1824" origin="Primary" startDateTime="2017-05-25T15:45:34.759-04:00" startTime="4344" endTime="4561" sendTime="61" waitTime="55" receiveTime="2">
+  <HTTPTask id="60" hostname="go.microsoft.com" path="/fwlink/?LinkId=251136" url="https://go.microsoft.com/fwlink/?LinkId=251136" ip="23.194.110.7" port="443" client_ip="192.168.0.11" client_port="41980" connectionId="1904" origin="Primary" startDateTime="2017-05-29T20:06:38.245-04:00" startTime="4252" endTime="4395" sendTime="56" waitTime="17" receiveTime="17">
     <QueryString>
       <HTTPDataSet>
         <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -156,7 +156,7 @@
         <HTTPHeaderEntity name="Date" index="9">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>VGh1LCAyNSBNYXkgMjAxNyAxOTo0NTo0MiBHTVQ=</ActualData>
+              <ActualData>VHVlLCAzMCBNYXkgMjAxNyAwMDowNjo0MSBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -172,14 +172,14 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8xLjEgMzAyIE1vdmVkIFRlbXBvcmFyaWx5DQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KRXhwaXJlczogLTENCkxvY2F0aW9uOiBodHRwczovL2llb25saW5lLm1pY3Jvc29mdC5jb20vaWUva25vd25fcHJvdmlkZXJzX2Rvd25sb2FkX3YxLnhtbA0KU2VydmVyOiBNaWNyb3NvZnQtSUlTLzguNQ0KWC1Bc3BOZXRNdmMtVmVyc2lvbjogNS4yDQpYLUFzcE5ldC1WZXJzaW9uOiA0LjAuMzAzMTkNClgtUG93ZXJlZC1CeTogQVNQLk5FVA0KQ29udGVudC1MZW5ndGg6IDANCkRhdGU6IFRodSwgMjUgTWF5IDIwMTcgMTk6NDU6NDIgR01UDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQoNCg==</ActualData>
+              <ActualData>SFRUUC8xLjEgMzAyIE1vdmVkIFRlbXBvcmFyaWx5DQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KRXhwaXJlczogLTENCkxvY2F0aW9uOiBodHRwczovL2llb25saW5lLm1pY3Jvc29mdC5jb20vaWUva25vd25fcHJvdmlkZXJzX2Rvd25sb2FkX3YxLnhtbA0KU2VydmVyOiBNaWNyb3NvZnQtSUlTLzguNQ0KWC1Bc3BOZXRNdmMtVmVyc2lvbjogNS4yDQpYLUFzcE5ldC1WZXJzaW9uOiA0LjAuMzAzMTkNClgtUG93ZXJlZC1CeTogQVNQLk5FVA0KQ29udGVudC1MZW5ndGg6IDANCkRhdGU6IFR1ZSwgMzAgTWF5IDIwMTcgMDA6MDY6NDEgR01UDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQoNCg==</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
         </HTTPAllHeaders>
       </HTTPHeaders>
     </HTTPResponse>
-    <HTTPTask id="61" hostname="ieonline.microsoft.com" path="/ie/known_providers_download_v1.xml" url="https://ieonline.microsoft.com/ie/known_providers_download_v1.xml" ip="204.79.197.200" port="443" client_ip="192.168.0.11" client_port="8732" connectionId="1912" origin="Redirection" startDateTime="2017-05-25T15:45:34.979-04:00" startTime="4564" endTime="4720" sendTime="23" waitTime="10" receiveTime="38">
+    <HTTPTask id="61" hostname="ieonline.microsoft.com" path="/ie/known_providers_download_v1.xml" url="https://ieonline.microsoft.com/ie/known_providers_download_v1.xml" ip="204.79.197.200" port="443" client_ip="192.168.0.11" client_port="41981" connectionId="1880" origin="Redirection" startDateTime="2017-05-29T20:06:38.407-04:00" startTime="4413" endTime="4582" sendTime="13" waitTime="5" receiveTime="52">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="User-Agent" index="0">
@@ -319,7 +319,7 @@
           <HTTPHeaderEntity name="Date" index="5">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VGh1LCAyNSBNYXkgMjAxNyAxOTo0NTo0MiBHTVQ=</ActualData>
+                <ActualData>VHVlLCAzMCBNYXkgMjAxNyAwMDowNjo0MSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -335,7 +335,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpDYWNoZS1Db250cm9sOiBwdWJsaWMsIG1heC1hZ2U9MTU1NTIwMDANCkNvbnRlbnQtVHlwZTogdGV4dC94bWwNCkxhc3QtTW9kaWZpZWQ6IE1vbiwgMDYgT2N0IDIwMTQgMTc6MjA6MzMgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNClNlcnZlcjogTWljcm9zb2Z0LUlJUy8xMC4wDQpEYXRlOiBUaHUsIDI1IE1heSAyMDE3IDE5OjQ1OjQyIEdNVA0KQ29udGVudC1MZW5ndGg6IDkwNTE4DQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpDYWNoZS1Db250cm9sOiBwdWJsaWMsIG1heC1hZ2U9MTU1NTIwMDANCkNvbnRlbnQtVHlwZTogdGV4dC94bWwNCkxhc3QtTW9kaWZpZWQ6IE1vbiwgMDYgT2N0IDIwMTQgMTc6MjA6MzMgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNClNlcnZlcjogTWljcm9zb2Z0LUlJUy8xMC4wDQpEYXRlOiBUdWUsIDMwIE1heSAyMDE3IDAwOjA2OjQxIEdNVA0KQ29udGVudC1MZW5ndGg6IDkwNTE4DQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
