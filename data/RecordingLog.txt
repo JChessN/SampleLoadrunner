@@ -1,0 +1,493 @@
+[API Trapper      (182c: a64)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1b88:1f90)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (127c:1550)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (127c:122c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (127c:122c)] Load Network Traffic Analyzers:
+[Network Analyzer (127c:122c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (127c:122c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (127c:122c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (127c:122c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (127c:122c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (127c:122c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (127c:122c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (127c:122c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (127c: d70)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (127c: e0c)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (127c: e0c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (127c: d70)] "GET /WebTours/"   
+[Network Analyzer (127c: d70)]   (Sid:  1) Client -> Server @ : 258 bytes (Service=HTTP)
+[API Trapper      ( 3bc:1fac)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( 3bc:10ec)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 3bc:10ec)] Load Network Traffic Analyzers:
+[Network Analyzer ( 3bc:10ec)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 3bc:10ec)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 3bc:10ec)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 3bc:10ec)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 3bc:10ec)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 3bc:10ec)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 3bc:10ec)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 3bc:10ec)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 3bc:1734)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc: 27c)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1ed4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1b88:1ed4)] Load Network Traffic Analyzers:
+[Network Analyzer ( 3bc:10ec)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1ed4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 3bc: 27c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1b88:1ed4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1b88:1ed4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Web Request      ( 3bc:1734)] "GET /WebTours/"   
+[Network Analyzer (1b88:1ed4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1b88:1ed4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Client -> Server @ : 258 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:10ec)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (1b88:1ed4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1b88:1ed4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1b88:1ed4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1b88:  b8)] Address lookup for JessePC = 192.168.0.11
+[Web Request      ( 3bc:1734)] "GET /WebTours/header.html"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 370 bytes (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 363 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1090)] Address lookup for JessePC = 192.168.0.11
+[Web Request      ( 3bc:1734)] "GET /WebTours/home.html"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Client -> Server @ : 359 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1090)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 3bc:19f4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:19f4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1b88:1764)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1880)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88: 624)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1ed4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88: 624)] Request Connection: Remote Server @ 23.208.32.63:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1b88:1764)] Request Connection: Remote Server @ 23.208.32.63:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1b88:1880)] Request Connection: Remote Server @ 204.79.197.200:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (1b88:  b8)] "GET /favicon.ico"   
+[Network Analyzer (1b88:  b8)]   (Sid:  3) Client -> Server @ : 267 bytes (Service=HTTP)
+[Network Analyzer (1b88:1ed4)] Request Connection: Remote Server @ 204.79.197.200:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 374 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  3) Server -> Client : 543 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /favicon.ico"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (1b88:1538)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1b88: 210)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      ( 3bc:1734)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 565 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 846 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 468 bytes (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Client -> Server @ : 463 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 1153 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 492 bytes (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  3) Client -> Server @ : 492 bytes (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  3) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  4) Client -> Server @ : 492 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  4) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc: f14)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1090)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:18f4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc: c68)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc: 27c)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:10ec)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1090)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 3bc:1734)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 3bc: f14)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 3bc:1734)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:18f4)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 3bc:1734)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 3bc: c68)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 3bc:10ec)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 3bc:1734)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( 3bc: 27c)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 3bc: e9c)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc: e9c)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1b88: 624)] Address lookup for JessePC = 192.168.0.11
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 482 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 485 bytes (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  4) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Client -> Server @ : 498 bytes (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Client -> Server @ : 492 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:19f4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1734)]   (Sid:  4) Server -> Client : 4520 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc: 27c)] Address lookup for JessePC = 192.168.0.11
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid:  4) Client -> Server @ : 500 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid:  4) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:19f4)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 3bc: 27c)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 3bc:13b4)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:10ec)] Address lookup for JessePC = 192.168.0.11
+[API Trapper      (1384: ba0)] Recording in 32-bit mode: C:\Program Files (x86)\Java\jre1.8.0_111\bin\jp2launcher.exe
+[Network Analyzer ( 3bc: d20)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer ( 3bc:1b44)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1944)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1b44)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 3bc:1944)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( 3bc: e88)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88: 624)] Request Connection: Remote Server @ 198.41.214.186:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 3bc: e88)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1384:1584)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1384:1584)] Load Network Traffic Analyzers:
+[Network Analyzer (1384:1584)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1384:1584)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1384:1584)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1384:1584)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1384:1584)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1384:1584)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1384:1584)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1384:1584)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1384: 9a8)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1828)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:1734)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( 3bc: 6bc)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc: 4a4)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:1c58)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1384:1584)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:FFFF:7F00:0001 - 1080  (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1b88:  b8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAA8Zm6fJL4TjOQgEAAQADxmY%3D"   
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:10ec)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1227 bytes  (Service=HTTP)
+[Web Request      (1b88:  b8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAA8Zm6fJL4TjOQgEAAQADxmY%3D"   
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Client -> Server @ : 288 bytes (Service=HTTP)
+[Web Request      (1384:1710)] "GET /WebTours/classes/FormDateUpdate.class"   
+[Network Analyzer (1384:1710)]   (Sid:  1) Client -> Server @ : 359 bytes (Service=HTTP)
+[Network Analyzer (1384:1710)]   (Sid:  1) Server -> Client : 3367 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1227 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1004)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:1734)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( 3bc:1734)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( 3bc:1734)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( 3bc: c68)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc: c68)] Request Connection: Remote Server @ 198.41.214.186:80   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      ( 3bc:1734)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAA4wzSMwNQPpfCTYAAQADjDM%3D"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1230 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAA4wzSMwNQPpfCTYAAQADjDM%3D"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1230 bytes  (Service=HTTP)
+[Network Analyzer (1384:1710)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (1b88:1880)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1880)] Request Connection: Remote Server @ 72.21.81.200:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (1b88:  b8)] "GET /pki/mscorp/crl/msitwww2.crl"   
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Client -> Server @ : 146 bytes (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 9896 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  6) Server -> Client : 9016 bytes  (Service=HTTP)
+[Net An. Error    (1b88: 210)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b88:1538)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b88:1764)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:  b8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1b88:1764)] Request Connection: Remote Server @ 23.208.32.63:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 3bc:18f4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:2164)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:18f4)] Request Connection: Remote Server @ 72.21.81.200:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (1b88:2164)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Network Analyzer ( 3bc: c68)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:18f4)] Address lookup for JessePC = 192.168.0.11
+[Web Request      ( 3bc:1734)] "GET /pki/mscorp/crl/msitwww2.crl"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Client -> Server @ : 146 bytes (Service=HTTP)
+[Network Analyzer ( 3bc: c68)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      ( 3bc:1734)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Client -> Server @ : 817 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:18f4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 6976 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 14276 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 4056 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 2710 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 256 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /pki/mscorp/crl/msitwww2.crl"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Client -> Server @ : 189 bytes (Service=HTTP)
+[Network Analyzer ( 3bc: c68)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 6976 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 6976 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 19) Server -> Client : 3176 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc: c68)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (1b88:  b8)] "GET /fwlink/?LinkId=251136"   
+[Network Analyzer (1b88:  b8)]   (Sid:  7) Client -> Server @ : 356 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  7) Server -> Client : 352 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88: 624)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1764)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1764)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1b88: 624)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1b88:22a8)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1b88:  b8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oABSnPKlpjltP9dOwAAQAFKc8%3D"   
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer (1b88:22b0)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:22bc)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1227 bytes  (Service=HTTP)
+[Web Request      (1b88:  b8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oABSnPKlpjltP9dOwAAQAFKc8%3D"   
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1227 bytes  (Service=HTTP)
+[Net An. Error    (1b88:22b0)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b88:22a8)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b88:1ed4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:  b8)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (1b88:1ed4)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (1b88:2328)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Web Request      ( 3bc:1734)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Client -> Server @ : 706 bytes (Service=HTTP)
+[Network Analyzer (1b88:2328)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 3031 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1090)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1090)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (1b88:  b8)] "GET /ie/known_providers_download_v1.xml"   
+[Network Analyzer (1b88:  b8)]   (Sid: 10) Client -> Server @ : 375 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 10) Server -> Client : 8839 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 3bc:2398)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1b88: 624)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88: 900)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1ed4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88: 900)] Request Connection: Remote Server @ 72.21.81.200:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1b88: 624)] Request Connection: Remote Server @ 72.21.81.200:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (1b88:1ed4)] Request Connection: Remote Server @ 72.21.81.200:443   (Service=)  (Sid= 13)  PROXIED!
+[Net An. Error    ( 3bc: d20)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc: 6bc)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:1828)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:1004)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc: 4a4)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:1c58)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:13b4)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:22bc)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:2398)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b88:16a0)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( 3bc: e88)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88: da0)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:1734)]   (Sid: 11) Connection Terminated (by Client)
+[Web Request      (1b88:  b8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oACDYeXVfdNVQzTOsAAAAINh4%3D"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1734)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer ( 3bc: e88)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (1b88:12f0)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:162c)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Net An. Error    ( 3bc:162c)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b88:1d7c)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 2687 bytes  (Service=HTTP)
+[Network Analyzer (1b88:1d7c)] Request Connection: Remote Server @ 72.21.81.200:443   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (1b88:  b8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oACDYeXVfdNVQzTOsAAAAINh4%3D"   
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (1b88:20cc)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:1734)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid:  5) Server -> Client : 1227 bytes  (Service=HTTP)
+[Net An. Error    (1b88:16a0)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b88: da0)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b88:12f0)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b88:20cc)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b88:1764)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1ed4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:  b8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (1b88:1ed4)] Request Connection: Remote Server @ 72.21.81.200:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1b88:1764)] Request Connection: Remote Server @ 72.21.81.200:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1b88:2130)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1b88:2130)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      ( 3bc:1734)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Client -> Server @ : 863 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 2849 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Client -> Server @ : 463 bytes (Service=HTTP)
+[Network Analyzer ( 3bc: e88)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 1103 bytes  (Service=HTTP)
+[Web Request      (1b88:  b8)] "GET /ieblocklist/v1/urlblockindex.bin"   
+[Network Analyzer (1b88:  b8)]   (Sid: 15) Client -> Server @ : 376 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 3bc:1944)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:  b8)]   (Sid: 15) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 15) Server -> Client : 16 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 3bc: e88)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer ( 3bc:1944)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (1b88:2208)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1b88:2208)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Network Analyzer ( 3bc:2270)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Net An. Error    ( 3bc:2270)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (1b88:  b8)] "GET /IE11/1479242656000/iecompatviewlist.xml"   
+[Network Analyzer (1b88:  b8)]   (Sid: 16) Client -> Server @ : 356 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 16) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (1b88:  b8)]   (Sid: 16) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 16) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 16) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1b88:  b8)]   (Sid: 16) Server -> Client : 1942 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 3bc:2274)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Net An. Error    ( 3bc:2274)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 3bc:1734)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer ( 3bc:1944)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1944)] Request Connection: Remote Server @ 72.21.81.200:443   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:2388)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      ( 3bc:1734)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Client -> Server @ : 360 bytes (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /WebTours/home.html"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 21) Client -> Server @ : 456 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 21) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc: e88)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc: c68)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1090)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc: c68)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer ( 3bc: e88)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( 3bc:1090)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer ( 3bc:19f4)] Address lookup for JessePC = 192.168.0.11
+[Web Request      ( 3bc:1734)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oACDYeXVfdNVQzTOsAAAAINh4%3D"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer ( 3bc:19f4)] Request Connection: Remote Server @ 65.52.235.123:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( 3bc:23b0)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:23b4)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc: 3e0)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1227 bytes  (Service=HTTP)
+[Web Request      ( 3bc:1734)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oACDYeXVfdNVQzTOsAAAAINh4%3D"   
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer ( 3bc: b14)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1b88:1ed4)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer (1b88:1764)] Address lookup for JessePC = 192.168.0.11
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 3bc:1734)]   (Sid: 18) Server -> Client : 1227 bytes  (Service=HTTP)
+[Net An. Error    ( 3bc: b14)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:23b0)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc: 3e0)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:23b4)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 3bc:2388)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Warning  (1b88:1764)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1b88:1ed4)] Request Connection: Remote Server @ 127.0.0.1:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)

@@ -1,0 +1,11 @@
+[t15]
+FileName1=t15_known_providers_download_v1.xml
+URL1=https://ieonline.microsoft.com/ie/known_providers_download_v1.xml
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_15.xml
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

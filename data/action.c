@@ -1,0 +1,139 @@
+Action()
+{
+
+	web_add_cookie("MUID=06606AD6AAC5608D271C63B5AEC5639F; DOMAIN=www.bing.com");
+
+	web_url("WebTours", 
+		"URL=http://127.0.0.1:1080/WebTours/", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=", 
+		"Snapshot=t10.inf", 
+		"Mode=HTML", 
+		EXTRARES, 
+		"Url=http://www.bing.com/favicon.ico", "Referer=", ENDITEM, 
+		LAST);
+
+	lr_think_time(4);
+
+	web_submit_form("login.pl", 
+		"Snapshot=t11.inf", 
+		ITEMDATA, 
+		"Name=username", "Value=jojo", ENDITEM, 
+		"Name=password", "Value=bean", ENDITEM, 
+		"Name=login.x", "Value=0", ENDITEM, 
+		"Name=login.y", "Value=0", ENDITEM, 
+		LAST);
+
+	web_image("Search Flights Button", 
+		"Alt=Search Flights Button", 
+		"Snapshot=t12.inf", 
+		EXTRARES, 
+		"Url=../WebTours/classes/FormDateUpdate.class", "Referer=", ENDITEM, 
+		LAST);
+
+	web_set_sockets_option("SSL_VERSION", "2&3");
+
+	web_submit_form("reservations.pl", 
+		"Snapshot=t13.inf", 
+		ITEMDATA, 
+		"Name=depart", "Value=London", ENDITEM, 
+		"Name=departDate", "Value=05/17/2017", ENDITEM, 
+		"Name=arrive", "Value=Los Angeles", ENDITEM, 
+		"Name=returnDate", "Value=05/18/2017", ENDITEM, 
+		"Name=numPassengers", "Value=2", ENDITEM, 
+		"Name=roundtrip", "Value=<OFF>", ENDITEM, 
+		"Name=seatPref", "Value=Aisle", ENDITEM, 
+		"Name=seatType", "Value=Coach", ENDITEM, 
+		"Name=findFlights.x", "Value=63", ENDITEM, 
+		"Name=findFlights.y", "Value=4", ENDITEM, 
+		LAST);
+
+	web_submit_form("reservations.pl_2", 
+		"Snapshot=t14.inf", 
+		ITEMDATA, 
+		"Name=outboundFlight", "Value=233;632;05/17/2017", ENDITEM, 
+		"Name=reserveFlights.x", "Value=12", ENDITEM, 
+		"Name=reserveFlights.y", "Value=5", ENDITEM, 
+		LAST);
+
+	web_add_cookie("SRCHD=AF=NOFORM; DOMAIN=ieonline.microsoft.com");
+
+	web_add_cookie("SRCHUID=V=2&GUID=2032C8FD06D546959D9EF3A76B41FF5B; DOMAIN=ieonline.microsoft.com");
+
+	web_add_cookie("SRCHUSR=DOB=20150809; DOMAIN=ieonline.microsoft.com");
+
+	web_url("fwlink", 
+		"URL=https://go.microsoft.com/fwlink/?LinkId=251136", 
+		"Resource=0", 
+		"RecContentType=text/xml", 
+		"Referer=", 
+		"Snapshot=t15.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	web_add_cookie("SRCHD=AF=NOFORM; DOMAIN=r20swj13mr.microsoft.com");
+
+	web_add_cookie("SRCHUID=V=2&GUID=2032C8FD06D546959D9EF3A76B41FF5B; DOMAIN=r20swj13mr.microsoft.com");
+
+	web_add_cookie("SRCHUSR=DOB=20150809; DOMAIN=r20swj13mr.microsoft.com");
+
+	web_submit_data("reservations.pl_3", 
+		"Action=http://127.0.0.1:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"RecContentType=text/html", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t16.inf", 
+		"Mode=HTML", 
+		ITEMDATA, 
+		"Name=firstName", "Value=Jojo", ENDITEM, 
+		"Name=lastName", "Value=Bean", ENDITEM, 
+		"Name=address1", "Value=", ENDITEM, 
+		"Name=address2", "Value=", ENDITEM, 
+		"Name=pass1", "Value=Jojo Bean", ENDITEM, 
+		"Name=pass2", "Value=Jane Bean", ENDITEM, 
+		"Name=creditCard", "Value=", ENDITEM, 
+		"Name=expDate", "Value=", ENDITEM, 
+		"Name=oldCCOption", "Value=", ENDITEM, 
+		"Name=numPassengers", "Value=2", ENDITEM, 
+		"Name=seatType", "Value=Coach", ENDITEM, 
+		"Name=seatPref", "Value=Aisle", ENDITEM, 
+		"Name=outboundFlight", "Value=233;632;05/17/2017", ENDITEM, 
+		"Name=advanceDiscount", "Value=0", ENDITEM, 
+		"Name=returnFlight", "Value=", ENDITEM, 
+		"Name=JSFormSubmit", "Value=off", ENDITEM, 
+		"Name=.cgifields", "Value=saveCC", ENDITEM, 
+		"Name=buyFlights.x", "Value=43", ENDITEM, 
+		"Name=buyFlights.y", "Value=16", ENDITEM, 
+		EXTRARES, 
+		"Url=https://r20swj13mr.microsoft.com/ieblocklist/v1/urlblockindex.bin", "Referer=", ENDITEM, 
+		LAST);
+
+	web_add_cookie("SRCHD=AF=NOFORM; DOMAIN=iecvlist.microsoft.com");
+
+	web_add_cookie("SRCHUID=V=2&GUID=2032C8FD06D546959D9EF3A76B41FF5B; DOMAIN=iecvlist.microsoft.com");
+
+	web_add_cookie("SRCHUSR=DOB=20150809; DOMAIN=iecvlist.microsoft.com");
+
+	web_url("iecompatviewlist.xml", 
+		"URL=https://iecvlist.microsoft.com/IE11/1479242656000/iecompatviewlist.xml", 
+		"Resource=0", 
+		"RecContentType=text/xml", 
+		"Referer=", 
+		"Snapshot=t17.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_think_time(4);
+
+	web_url("welcome.pl", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t18.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	return 0;
+}
